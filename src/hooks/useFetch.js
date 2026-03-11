@@ -10,6 +10,7 @@ const useFetch = (url) => {
     const signal = controller.signal;
 
     const fetchData = async () => {
+      debugger; // Зупинка для демонстрації в панелі Sources
       setIsLoading(true);
       setError(null);
       try {
